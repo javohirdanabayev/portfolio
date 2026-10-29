@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+nav{
+    height: 90px;
+    background-color: #14213d;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.fa-graduation-cap{
+    color: #fcbf49;
+    font-size: 30px;
+}
+
+.ism {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.menu{
+    color: white;
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    gap: 5px;
+}
+
+
+.icon{
+    font: 15px;
+    color: rgb(232, 253, 2);
+}
+
+.link:hover{
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.birinchi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    gap: 10px;
+
+}
+
+.fa-user-graduate {
+    font-size: 50px;
+    background-color: #2a9d8f;
+    padding: 30px;
+    border-radius: 50%;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: white;
+}
+
+.salomlash {
+    color: #14213d;
+    font-weight: 900;
+}
+
+.sinf {
+    color: #2a9d8f;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.qiziqish {
+    color: #14213d;
+}
+
+button {
+    background-color: #fcbf49;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    color: #14213d;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.fa-arrow-down-long{
+    color: #14213d;
+}
+
+.uzun {
+    background-color: #fcbf49;
+    height: 5px;
+    border: none;
+}
+
+.ikkinchi {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 90px;
+    gap: 20px;
+}
+
+.haqida {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.haqida i {
+    font-size: 35px;
+    color: #2a9d8f;
+}
+
+.haqida h3 {
+    font-size: 30px;
+    color: #14213d;
+    font-weight: 800;
+}
+
+.tavsif {
+    color: #14213d;
+}
+
+.ikkinchi ol {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.ikkinchi ol li {
+    display: flex;
+    gap: 5px;
+}
+
+.ikkinchi ol li i {
+    color: #2a9d8f;
+}
+
+.ikkinchi ol li p {
+    color: #14213d;
+}
